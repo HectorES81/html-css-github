@@ -1,0 +1,11 @@
+div {
+  width:100px;
+  height: 100px;
+  background-color: red;
+}
+
+.happy  {
+  color: red;
+  font-size: 150px;
+  /* margin-left: 200px; */
+}
