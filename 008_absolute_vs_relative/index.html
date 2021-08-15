@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Abolute vs Relative</title>
+  </head>
+  <style>
+    code {
+      background-color: lightgray;
+      font-size: 1.2em;
+      padding: 3px;
+    }
+  </style>
+<body>
+  <h1>Path to use in 'src' attributes</h1>
+  <figure class="example">
+    <code> &lt;img src="puppy.jpg"></code>
+    <figcaption>This example shows a sample of relative source path.</figcaption>
+  </figure>
+  <p>The name of the file alone means the file is in the same folder as the file calling it</p>
+  <p>A path of folder names and then a file name means the file path can start from the same folder the code file is in. There's no root "/" indicator in the front.</p>
+  <p>In <code>src="../img/buildings/capitol.jpg"</code> the ".." means go up a folder level and then dig down.</p>
+<p>Absoulte urls have complete url paths or paths from the root folder in your system.</p>
+</body>
+</html>
