@@ -2,13 +2,25 @@ div {
   width: 100px;
   height: 100px;
   border: 1px solid red;
+  border-radius: 10px;
+}
+
+div + div + div {
+  border-radius: 50%;
 }
 
 img {
-  border: 10px solid orangered; }
+  border: 10px solid orangered;
+
+ }
+
+ .circular-border {
+   border-radius: 100%;
+ }
 
 .dogone {
     border: 10px groove orangered;
+
 }
 .dogtwo{
     border: 10px double orangered;
