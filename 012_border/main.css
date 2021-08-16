@@ -11,7 +11,14 @@ div + div + div {
 
 img {
   border: 10px solid orangered;
-
+  margin: 10px;
+ }
+ p img {
+   float:left;
+ }
+/* Shorthand font rule */
+a {
+  font: italic small-caps 700 16px/1.2 sans-serif;
  }
 
  .circular-border {
@@ -24,9 +31,12 @@ img {
 }
 .dogtwo{
     border: 10px double orangered;
+    padding: 20px;
 }
 .dogthree {
-    border: 10px dashed orangered;
+    border: 10px dashed blue;
+    box-sizing: border-box;
+    width: 200px;
 }
 .dogfour {
     border: 10px dotted orangered;
